@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   
   sentence_array = sentence.split(' ')
   
-  sentence.each { |word| word = word.reverse}
+  sentence.collect { |word| word = word.reverse}
   
   return sentence
 end
