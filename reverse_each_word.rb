@@ -5,7 +5,4 @@ def reverse_each_word(sentence)
   
   return sentence_array.collect{ |word| word.reverse}
   
-  return sentence_array
-  
-  
 end
